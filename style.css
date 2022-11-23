@@ -80,6 +80,7 @@ ul {
 .main-articles{
     flex: 3 0 auto;
     background-color: aqua;
+    padding: 10px;
 }
 
 .side-articles{
@@ -90,7 +91,6 @@ ul {
 #featured{
     display: flex;
     min-height: 400px;
-    padding: 5px;
 }
 
 #featured img{
@@ -104,4 +104,22 @@ ul {
     flex: 2 0 auto;
     background-color: bisque;
     padding: 10px;
+}
+
+.articles{
+    display: flex;
+    flex-direction: column;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    padding: 10px 0 10px 0;
+}
+
+.vid-box{
+    display: flex;
+    min-height: 322px;
+    background-color: gray;
 }
