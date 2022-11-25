@@ -91,9 +91,16 @@ ul {
     background-color: red;
 }
 
-#spotlight img{
+#spotlight-img-link{
     flex: 3 0 60%;
+    display: flex;
+}
+
+
+#spotlight-img{
     background-color: antiquewhite;
+    flex: 1 0 auto;
+    
 }
 
 .spot-textbox{
@@ -104,6 +111,10 @@ ul {
     background-color: beige
     ;
     padding: 10px;
+}
+
+.read-more{
+    color: green;
 }
 
 .articles{
@@ -217,10 +228,53 @@ ul {
 
 }
 
+.feat-art-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.feat-art-cont{
+    display: flex;
+    padding-top: 20px;
+}
+
+.feat-art-no{
+    background-color: aquamarine;
+}
+
+.feat-art-content{
+    background-color: greenyellow;    
+    padding-left: 10px;
+}
+
+.feat-art-head{
+    color: darkred;
+}
+
 /* RECOMMENDED SECTION */
 
 .recom-box{
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
 
+}
+
+.recom-cont{
+    display: flex;
+    padding-top: 20px;
+}
+
+.recom-link{
+    display: flex;
+}
+
+.recom-link img{
+    min-height: 75px;
+    min-width: 100px;
+    background-color: blanchedalmond;
+}
+
+.recom-head{
+    background-color: azure;
 }
