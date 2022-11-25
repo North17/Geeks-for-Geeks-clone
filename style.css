@@ -78,31 +78,31 @@ ul {
 }
 
 .main-articles{
-    flex: 3 0 auto;
+    flex: 3 0 60%;
     background-color: aqua;
     padding: 10px;
 }
 
-.side-articles{
-    flex: 2 0 auto;
-    background-color: aquamarine;
-}
-
-#featured{
+#spotlight{
     display: flex;
-    min-height: 400px;
+    flex: 1 0 auto;
+    min-height: 350px;
+    max-width: 100%;
+    background-color: red;
 }
 
-#featured img{
-    flex: 3 0 auto;
+#spotlight img{
+    flex: 3 0 60%;
     background-color: antiquewhite;
 }
 
-.feat-textbox{
+.spot-textbox{
     display: flex;
     flex-direction: column;
-    flex: 2 0 auto;
-    background-color: bisque;
+    flex: 2 0 40%;
+    max-width: fit-content;
+    background-color: beige
+    ;
     padding: 10px;
 }
 
@@ -122,4 +122,105 @@ ul {
     display: flex;
     min-height: 322px;
     background-color: gray;
+}
+
+.side-articles{
+    display: flex;
+    flex-direction: column;
+    flex: 2 0 40%;
+    padding: 50px;
+    background-color: aquamarine;
+}
+
+/* WHAT"S NEW SECTION */
+
+.whats-new-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 10px 0;
+    background-color: lightblue;
+
+}
+
+.new-card{
+    display: flex;
+    padding: 25px 0 0 0;
+    width: 100%;
+    height: 140px;
+}
+
+.new-card img{
+    min-width: 100px;
+    min-height: 100px;
+    background-color: antiquewhite;
+}
+
+.new-card-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.new-card-head{
+    flex: 1 0 50%;
+    background-color: beige;
+}
+
+.new-card-det-cont{
+    display: flex;
+    flex: 1 0 auto;
+    background-color: bisque;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.view-det{
+    color: white;
+}
+
+
+/* QUICK LINKS SECTION */
+
+.quick-links-box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.quick-links-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-link{
+    display: flex;
+}
+
+.quick-link-text{
+    color: coral;
+    padding-top: 10px;
+}
+
+
+/* FEATURED ARTICLES SECTION */
+
+.feat-art-box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.feat-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* RECOMMENDED SECTION */
+
+.recom-box{
+    display: flex;
+    flex-direction: column;
+
 }
