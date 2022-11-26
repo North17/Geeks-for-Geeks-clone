@@ -49,12 +49,19 @@ ul {
 }
 
 .topic-container{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
     display: flex;
     align-items: center;
     height: 39px;
     white-space: nowrap;
     justify-content: space-between;
     padding: 5px;
+
+    background-color: grey;
+    color: white;
 
 }
 
@@ -76,6 +83,11 @@ ul {
     padding: 70px;
 
 }
+.title-more{
+    color: white;
+}
+
+/* MAIN ARTICLES */
 
 .main-articles{
     flex: 3 0 60%;
@@ -131,8 +143,41 @@ ul {
 
 .vid-box{
     display: flex;
+    flex-direction: column;
     min-height: 322px;
     background-color: gray;
+    padding: 10px;
+}
+
+.vid-title-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vids-cont{
+    display: flex;
+    overflow-x: scroll;
+    flex: 1 0 auto;
+    padding-top: 10px;
+}
+
+.vids-cont a{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 50%;
+}
+
+.vid-thumbnail{
+    flex: 1 0 auto;
+    background-color: antiquewhite;
+}
+
+.vid-title{
+    background-color: azure;
+}
+
+.vid-date{
+    background-color: beige;
 }
 
 .side-articles{
