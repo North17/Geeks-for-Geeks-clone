@@ -278,3 +278,31 @@ ul {
 .recom-head{
     background-color: azure;
 }
+
+/* FOOTER */
+
+.footer-wrapper{
+    display: flex;
+    padding: 40px;
+}
+
+.gfg-info{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 20%;
+}
+
+#socials{
+    display: flex;
+}
+
+.footer-link-list{
+    display: flex;
+    flex: 1 0 80%;
+}
+
+.footer-link-list li{
+    display: flex;
+    flex: 1 0 20%;
+    flex-direction: column;
+}
