@@ -30,6 +30,7 @@ ul {
 
 }
 
+
 #logo{
     align-self: center;
 }
@@ -56,6 +57,11 @@ ul {
     width: 250px;
 }
 
+.dropdown-text{
+    display: flex;
+    justify-content: space-between;
+}
+
 .dropdown:hover .dropdown-cont{
     display: flex;
     flex-direction: column;
@@ -72,6 +78,9 @@ ul {
 
 .inner-dropdown-text{
     padding: 5px 0 5px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .inner-dropdown-cont{
@@ -219,6 +228,10 @@ ul {
     padding: 10px 0 10px 0;
 }
 
+.tags{
+    display: flex;
+}
+
 .vid-box{
     display: flex;
     flex-direction: column;
@@ -333,6 +346,7 @@ ul {
 .quick-link-text{
     color: coral;
     padding-top: 10px;
+    display: flex;
 }
 
 
@@ -349,6 +363,10 @@ ul {
     flex-direction: row;
     justify-content: space-between;
 
+}
+
+.title-more{
+    display: flex;
 }
 
 .feat-art-list{
@@ -400,6 +418,7 @@ ul {
 
 .recom-head{
     background-color: azure;
+    display: flex;
 }
 
 /* FOOTER */
@@ -413,6 +432,10 @@ ul {
     display: flex;
     flex-direction: column;
     flex: 1 0 20%;
+}
+
+.gfg-info-elems{
+    display: flex;
 }
 
 #socials{
