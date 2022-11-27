@@ -19,6 +19,7 @@ ul {
 .navbar{
     display: flex;
     flex-direction: column;
+    z-index: 1;
 }
 
 .top-container{
@@ -29,14 +30,91 @@ ul {
 
 }
 
+#logo{
+    align-self: center;
+}
+
 .dropdowns{
     display: flex;
     align-items: left;
 }
 
-.dropdowns li{
+
+/* Dropdown */
+
+.dropdown{
     padding: 5px;
+    position: relative;
+    display: inline-block;
 }
+
+.dropdown-cont{
+    display: none;
+    position: absolute;
+    background-color: beige;    
+    padding-top: 10px;
+    width: 250px;
+}
+
+.dropdown:hover .dropdown-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Inner dropdown */
+
+.inner-dropdown{
+    position: relative;
+    display: flex;
+
+}
+
+.inner-dropdown-text{
+    padding: 5px 0 5px 20px;
+}
+
+.inner-dropdown-cont{
+    display: none;
+    position: absolute;
+    left: 250px;
+    background-color: chocolate;  
+    width: 250px;
+}
+
+.inner-dropdown:hover .inner-dropdown-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Inner Inner dropdown (pls help) */
+
+.inner-inner-dropdown{
+    position: relative;
+    display: flex;
+
+}
+
+.inner-inner-dropdown-text{
+    padding: 5px 0 5px 20px;
+}
+
+.inner-inner-dropdown-cont{
+    display: none;
+    position: absolute;
+    left: 250px;
+    background-color: darksalmon;  
+    width: 250px;
+}
+
+.inner-inner-dropdown:hover .inner-inner-dropdown-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Interaction panel */
 
 .interactions{
     display: flex;
